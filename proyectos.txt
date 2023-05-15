@@ -1,0 +1,42 @@
+Crear una calculadora.
+Desarrollar un cronómetro.
+Construir un juego de ahorcado.
+Crear un juego de piedra, papel y tijera.
+Desarrollar un juego de adivinanzas.
+Construir un juego de memoria.
+Crear un juego de Sudoku.
+Desarrollar un juego de preguntas y respuestas.
+Construir un generador de contraseñas.
+Crear un generador de nombres de bandas.
+Desarrollar un generador de nombres de startups.
+Construir un generador de nombres de libros.
+Crear un generador de citas inspiradoras.
+Desarrollar un generador de paletas de colores.
+Construir un generador de memes.
+Crear un generador de tarjetas de visita.
+Desarrollar un generador de tarjetas de felicitación.
+Construir un generador de códigos QR.
+Crear un generador de contraseñas.
+Desarrollar un generador de nombres de usuarios.
+Construir una lista de tareas pendientes.
+Crear una aplicación de notas.
+Desarrollar una aplicación de seguimiento de hábitos.
+Construir una aplicación de búsqueda de recetas.
+Crear una aplicación de agenda.
+Desarrollar una aplicación de gestión de proyectos.
+Construir una aplicación de cálculo de propinas.
+Crear una aplicación de traducción de idiomas.
+Desarrollar una aplicación de seguimiento de ejercicios.
+Construir una aplicación de chat en tiempo real.
+Crear una aplicación de clima.
+Desarrollar un reproductor de música en línea.
+Construir un reproductor de video en línea.
+Crear un editor de imágenes en línea.
+Desarrollar un clon de Twitter.
+Construir un clon de Instagram.
+Crear un clon de Airbnb.
+Desarrollar un clon de Netflix.
+Construir un clon de YouTube.
+Crear un clon de Pinterest.
+Desarrollar un clon de Reddit.
+Construir un clon de LinkedIn.
