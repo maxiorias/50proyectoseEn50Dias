@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h1>Calculadora</h1>
     <div id="contenedorPadre">
         <div id="contenedorHijo">
 
@@ -34,10 +34,14 @@
                     <button onclick="appendOperator('-')">-</button>
                     <button onclick="appendOperator('*')">*</button>
                     <button onclick="appendOperator('/')">/</button>
+                    
+                    <button onclick="porcentaje()">%</button>
+                    <button onclick="masMenosSigno()">+/-</button>
              
                     <!-- Agrega los demás botones -->
                     <button onclick="calculate()">=</button>
-                    <button onclick="clearResult()">C</button>
+                    <button class="clear-button" onclick="clearResult()">C</button>
+                  
                     
                 </div>
             </div>

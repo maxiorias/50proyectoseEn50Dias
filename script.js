@@ -20,11 +20,23 @@ function calculate() {
   }
 }
 
+
 function clearResult() {
   const resultInput = document.getElementById('result');
   resultInput.value = '';
 }
 
-function appendOperator () {
-    const result
-}
+function porcentaje() {
+    const result = parseFloat(document.getElementById('result').value);
+    const percentaje = result / 100;
+    document.getElementById('result').value = percentaje;
+  }
+  
+  function masMenosSigno() {
+    const result = document.getElementById('result').value;
+    if (result !== '') {
+      const newValue = parseFloat(result) * -1;
+      document.getElementById('result').value = newValue;
+    }
+  }
+

@@ -6,6 +6,12 @@
 body{
     background-color: #e7bfbf;
 }
+
+h1{
+   position: relative;
+   text-align: center;
+   font-size: 4rem;
+}
   #contenedorPadre {
     position: relative;
     width: 400px;
@@ -14,19 +20,23 @@ body{
     top: 300px;
     background-color: #e6a2a2;
     border: 1px solid #000000;
+    box-shadow: 20px 20px 4px rgba(0, 0, 0, 0.2);
   }
 
   #contenedorHijo {
     position: absolute;
-    left: 100px;
-    bottom: 85px;
+    left: 90px;
+    bottom: 40px;
     margin: auto;
+    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.2);
+
   }
 .calculadora {
-    width: 200px;
-    padding: 10px;
+    width: 220px;
+    padding: 6px;
     background-color: #e6a2a2;
     border: 1px solid #000000;
+
     
   }
   
@@ -37,7 +47,11 @@ body{
   }
   
   .botones button {
-    width: 22%;
+    width: 23%;
     padding: 6px;
     margin: 8px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 30%;
   }
+
+ 
