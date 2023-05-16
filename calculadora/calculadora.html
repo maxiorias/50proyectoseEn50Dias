@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../calculadora/calculadora.css">
     <title>Document</title>
 </head>
+
 <body>
     <h1>Calculadora</h1>
     <div id="contenedorPadre">
         <div id="contenedorHijo">
 
-            
-            
+
+
             <div class="calculadora">
                 <input type="text" id="result" disabled>
+                <!-- numeros -->
                 <div class="botones">
                     <button onclick="appendNumber(7)">7</button>
                     <button onclick="appendNumber(8)">8</button>
@@ -34,20 +37,21 @@
                     <button onclick="appendOperator('-')">-</button>
                     <button onclick="appendOperator('*')">*</button>
                     <button onclick="appendOperator('/')">/</button>
-                    
+
                     <button onclick="porcentaje()">%</button>
                     <button onclick="masMenosSigno()">+/-</button>
-             
-                    <!-- Agrega los demás botones -->
+
+                    <!-- boton clear e igual -->
                     <button onclick="calculate()">=</button>
                     <button class="clear-button" onclick="clearResult()">C</button>
-                  
-                    
+
+
                 </div>
             </div>
         </div>
-            
+
     </div>
-    <script src="./script.js"></script>
+    <script src="../calculadora/calculadora.js"></script>
 </body>
+
 </html>
