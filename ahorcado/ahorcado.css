@@ -1,3 +1,5 @@
+.palabra 
+
 #contenedor {
     position: relative;
     height: 100vh;
@@ -32,4 +34,5 @@
 
 .letrasDiccionario span:hover{
     background: linear-gradient(45deg, #ffffff, #918c8c)
+
 }
