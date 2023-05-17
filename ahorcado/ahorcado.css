@@ -1,3 +1,35 @@
-.letrasDiccionario {
-    
+#contenedor {
+    position: relative;
+    height: 100vh;
+    background-color: lightgray;
+  }
+
+  .letrasDiccionario {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 10px;
+    width: 20%;
+    background: linear-gradient(45deg, #ffffff, #e0e0e0);
+    padding: 20px;
+  }
+
+  .letrasDiccionario span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    border: 1px solid #000;
+    height: 50px;
+    box-shadow: 2px 5px 7px rgba(0, 0, 0, 0.9);
+    cursor: pointer;
+  }
+
+
+.letrasDiccionario span:hover{
+    background: linear-gradient(45deg, #ffffff, #918c8c)
 }
