@@ -22,4 +22,10 @@
   .boton {
     font-size: 50px;
     margin: 20px;
+    cursor: pointer;
+
+  }
+
+  .boton:hover{
+    color: #423c3c;
   }
