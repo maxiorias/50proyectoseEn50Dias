@@ -7,3 +7,10 @@ function actualizarPalabraAdivinada () {
     const palabraElemento = document.querySelector('.palabra');
     palabraElemento.textContent = palabraAdivinada;
 }
+
+// actualizo los intentos restantes 
+
+function actualizarIntentosRestantes (){
+    const intentosElemento = document.querySelector('.intentos');
+    intentosElemento.textContent = 'Intentos restantes: ${intentosRestantes}'
+}
