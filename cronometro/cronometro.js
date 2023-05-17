@@ -15,7 +15,7 @@ function formatTime(seconds) {
     return `${formattedHours}:${formattedMinutes}:${formattedSeconds}`;
   }
 
-// Función para iniciar el cronómetro
+
 function startTimer() {
     timerInterval = setInterval(() => {
       seconds++;
