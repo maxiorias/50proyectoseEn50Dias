@@ -1,4 +1,9 @@
-.palabra 
+h1 {
+    font-size: 60px;;
+}
+.palabra  {
+    font-size: 50px;
+}
 
 #contenedor {
     position: relative;
