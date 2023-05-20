@@ -18,4 +18,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const contrasenaGenerada = generarContrasena();
     const elementoContrasena = document.getElementById('contrasena-generada');
     elementoContrasena.textContent = contrasenaGenerada;
+
+    const actualizarContrasena = () => {
+        const contrasenaGenerada = generarContrasena ();
+        elementoContrasena.textContent = contrasenaGenerada;
+    }
+
+    botonCambiar.addEventListener('click', actualizarContrasena)
+
+    actualizarContrasena();
   });
