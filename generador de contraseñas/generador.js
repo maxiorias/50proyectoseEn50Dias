@@ -14,3 +14,8 @@ const generarContrasena = () => {
 const nuevaContrasena = generarContrasena();
 console.log(nuevaContrasena);
 
+document.addEventListener('DOMContentLoaded', () => {
+    const contrasenaGenerada = generarContrasena();
+    const elementoContrasena = document.getElementById('contrasena-generada');
+    elementoContrasena.textContent = contrasenaGenerada;
+  });
