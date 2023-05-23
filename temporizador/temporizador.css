@@ -1,0 +1,19 @@
+.container {
+    position: absolute;
+    padding: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+}
+
+h1{
+    text-align: center;
+}
+.reloj {
+    position: relative;
+    padding: 35px;
+    font-size: 35px;
+
+    border: 1px solid black;
+}
