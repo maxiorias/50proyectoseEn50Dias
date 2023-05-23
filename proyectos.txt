@@ -36,7 +36,7 @@ Desarrollar un clon de Twitter.
 Construir un clon de Instagram.
 Crear un clon de Airbnb.
 Desarrollar un clon de Netflix.
-Construir un clon de YouTube.
+Construir un clon de YouTube
 Crear un clon de Pinterest.
 Desarrollar un clon de Reddit.
 Construir un clon de LinkedIn.
